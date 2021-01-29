@@ -1,0 +1,45 @@
+h1{
+    color: "white";
+    
+}
+.header{
+    background-color: rgb(255, 118, 170);
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    font-family: 'Trebuchet MS';
+}
+ .site-description{
+     display:flex;
+     flex-direction: column;
+     justify-content: first baseline;
+     background-color: rgb(255, 88, 158);
+     
+ }   
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item{
+ border:darkred;
+ border-radius: 20px;
+ background-color: rgb(46, 231, 255);
+ padding: 30px;
+ margin: 25px;
+
+ width: 310px;
+ font-family: 'Franklin Gothic Medium';
+}
+
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+    
+    
+}
